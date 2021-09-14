@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.springframework.transaction.interceptor: trace
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
